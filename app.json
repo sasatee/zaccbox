@@ -21,10 +21,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dexyf.zaccbox"
     },
+    "schema":["zaccbox"],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "8793a603-be29-450c-8610-bff245e5e45b"
+      }
     }
   }
 }
