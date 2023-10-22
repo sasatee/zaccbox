@@ -28,7 +28,7 @@ function Navigation() {
 
 }
 
-export default  GoogleApp=()=>{
+export default GoogleApp=()=>{
     const navigation = useNavigation()
 
     const [userInfo,setUserInfo] = useState();
@@ -86,12 +86,12 @@ export default  GoogleApp=()=>{
 
 
   if(loading)return(
-      <View style={{flex:1,alignItems:"center",justifyContent:"center"}}>
+      <View style={{alignItems:"center",justifyContent:"center"}}>
       <ActivityIndicator size={"large"}/>
   </View>
   )
 
-    return userInfo?   <GoogleComponent promptAsync={promptAsync}/>:null;
+    return userInfo? <GoogleComponent promptAsync={promptAsync}/>:null;
 
 }
 

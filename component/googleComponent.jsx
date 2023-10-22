@@ -124,7 +124,7 @@ export default function GoogleComponent ({promptAsync})  {
 
 
         >
-            <AntDesign name="google" sizw={30} color="white"/>
+            <AntDesign name="google" size={30} color="white"/>
             <Text style={{fontWeight:"bold",color:"white",fontSize:17}}>
                 Sign in With Google
             </Text>
