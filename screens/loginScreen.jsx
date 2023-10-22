@@ -63,6 +63,10 @@ import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import LoginForm from "../component/loginForm";
 import FacebookAuth from "../component/facebookComponent";
+//import GoogleComponent from "../component/googleComponent";
+import GoogleApp from "../component/googleApp";
+
+
 
 
 
@@ -94,6 +98,7 @@ const Login = () => {
       {/* facebook */}
       <View style={{ paddingTop: 20 }}>
         <FacebookAuth/>
+        <GoogleApp/>
       
       </View>
 
@@ -107,40 +112,7 @@ const Login = () => {
         </TouchableOpacity>
       </View>
     </SafeAreaView>
-    // <SafeAreaView style={styles.container}>
-    //   <View style={{ paddingTop: 20 }}>
-    //     <LoginForm />
-    //     <FacebookAuth style={{ borderColor: "red" }} />
 
-    //   </View>
-
-    //   <View style={styles.buttonContainer}>
-    //   <View style={{ paddingTop:5 }}>
-    //     <TouchableOpacity>
-
-    //       <Button
-    //         title="Go to register"
-    //         color="black" // Set text color to black
-    //         onPress={() => navigation.navigate("Register")}
-    //       />
-    //     </TouchableOpacity>
-    //     </View>
-    //   </View>
-
-    //   <View style={styles.buttonContainer}>
-    //     <View style={{ paddingTop:5 }}>
-    //       <TouchableOpacity>
-    //       <Button
-    //         title="Go to logOut"
-    //         color="black" // Set text color to black
-    //         onPress={() => navigation.navigate("home")}
-    //       />
-
-    //       </TouchableOpacity>
-
-    //     </View>
-    //   </View>
-    // </SafeAreaView>
   );
 };
 

@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dexyf.zaccbox"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,11 +25,11 @@
       },
       "package": "com.dexyf.zaccbox"
     },
-    "schema":["zaccbox"],
+
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    
+    "scheme": "zaccbox",
     "extra": {
       "eas": {
         "projectId": "8793a603-be29-450c-8610-bff245e5e45b"
