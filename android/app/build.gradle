@@ -1,5 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 def projectRoot = rootDir.getAbsoluteFile().getParentFile().getAbsolutePath()
 
@@ -136,8 +138,13 @@ android {
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
+    implementation project(path: ":@react-native-firebase_auth")
+
+
+     
     implementation("com.facebook.react:react-android")
     implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+    implementation project(':react-native-fbsdk-next')
 
     def isGifEnabled = (findProperty('expo.gif.enabled') ?: "") == "true";
     def isWebpEnabled = (findProperty('expo.webp.enabled') ?: "") == "true";
