@@ -3,7 +3,9 @@ import { View, TextInput, StyleSheet,TouchableOpacity ,Text} from 'react-native'
 import { useDispatch, useSelector } from 'react-redux';
 import { signInUser } from '../Redux/createSlice/UserSlice';
 import { useNavigation } from '@react-navigation/native';
- import LogOutScreen from "../screens/HomeScreen"
+import LogOutScreen from '../screens/HomeScreen';
+//  import LogOutScreen from "../screens/HomeScreen"
+
 
 
 

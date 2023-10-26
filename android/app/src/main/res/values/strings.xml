@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">zaccbox</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">3584540145115902</string>
+  <string name="fb_login_protocol_scheme">fb1234</string>
+  <string name="facebook_client_token">2719d47af6dc9bb8f514647cc75b1949</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">light</string>
+</resources>

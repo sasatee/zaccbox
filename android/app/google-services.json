@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714082972379",
+    "project_id": "tutorial-signin-ce9d4",
+    "storage_bucket": "tutorial-signin-ce9d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714082972379:android:66305dcd0ae2c264a352fe",
+        "android_client_info": {
+          "package_name": "com.dexyf.zaccbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714082972379-nvol2lip9iapqsgssjo5tf268aku36nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGwZoh0-yIsUeRNJ5pUrgtMzuJtBFqQ2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714082972379-nvol2lip9iapqsgssjo5tf268aku36nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

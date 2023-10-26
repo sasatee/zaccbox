@@ -1,6 +1,7 @@
 import { View, Text, SafeAreaView} from 'react-native'
-import React from 'react'
-import RegisterForm from "../component/registerForm"
+import React from 'react';
+import RegisterForm from '../component/registerForm';
+
 
 const Signup = () => {
   return (

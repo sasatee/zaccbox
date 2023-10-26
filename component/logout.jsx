@@ -4,6 +4,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../Redux/createSlice/UserSlice';
 
 import { useNavigation } from '@react-navigation/native';
+import {auth} from "../firebaseConfig";
+
+
+import {
+signOut
+} from "firebase/auth";
 
 
 
@@ -25,7 +31,7 @@ const LogoutScreen = () => {
   useEffect(() => {
     const logoutInterval = setInterval(() => {
       handleLogout();
-    }, 30000); // 5 seconds
+    }, 5000); // 5 seconds
 
     
     return () => {
@@ -39,6 +45,7 @@ const LogoutScreen = () => {
         <Text>{`API key:${JSON.stringify(apiKey)}`}</Text>
       <Text>Are you sure you want to log out?</Text>
       <Button title="Logout" onPress={handleLogout} />
+        <Button title="sign Out" onPress={async ()=>await signOut(auth)}/>
     </View>
   );
 };
